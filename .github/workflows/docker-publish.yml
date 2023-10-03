@@ -21,4 +21,4 @@ jobs:
         mvn spring-boot:build-image -DskipTests
         pwd
         ls -la
-      working-directory: naming-server
+      working-directory: ./naming-server/
