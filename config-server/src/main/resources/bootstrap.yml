@@ -1,0 +1,15 @@
+server:
+    port: 8888
+spring:
+    application:
+        name: greeting-config-server
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/herlandio/config-server-spring-boot
+                    #username: se privado
+                    #password: se privado
+                    default-label: main
+                    search-paths:
+                    - 'greeting-service*'
