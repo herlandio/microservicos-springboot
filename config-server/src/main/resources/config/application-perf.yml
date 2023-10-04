@@ -1,6 +1,0 @@
-spring:
-    application:
-        name: greeting-service
-greeting-service:
-    greeting: "Local Perf"
-    default-value: "Nenhuma palavra passada por parametro"

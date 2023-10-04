@@ -1,6 +1,0 @@
-spring:
-    application:
-        name: greeting-service
-greeting-service:
-    greeting: "Local QA"
-    default-value: "Nenhuma palavra passada por parametro"
