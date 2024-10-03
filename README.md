@@ -17,3 +17,9 @@
 - OpenFeign
 - Flyway
 - Docker
+
+Para comecar
+
+1. Execute `mvn spring-boot:build-image -DskipTests` nas pastas api-gateway e naming-server
+2. Depois execute `mvn clean package -DskipTests` nas pastas book-service e cambio-service
+3. Por fim execute `docker compose up -d`
